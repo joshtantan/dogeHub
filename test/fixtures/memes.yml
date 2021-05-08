@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  owner_id: 1
+  price_cents: 1
+  title: MyString
+  caption: MyText
+
+two:
+  owner_id: 1
+  price_cents: 1
+  title: MyString
+  caption: MyText
