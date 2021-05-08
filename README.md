@@ -1,24 +1,21 @@
-# README
+# dogeHub Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+dogeHub is an image repository built with Ruby on Rails that allows users to upload, share, and view doge memes
 
-Things you may want to cover:
+## Final Product
 
-* Ruby version
 
-* System dependencies
+## Dependencies
 
-* Configuration
+- Ruby
+- Rails
+- Postgresql
+## Runtime Usage
 
-* Database creation
+### Local Deployment
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+> All commands are run from the project root directory
+1. Install all dependencies before first use
+```shell
+$ bundle i
+```
