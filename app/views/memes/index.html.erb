@@ -1,2 +1,12 @@
-<h1>Memes#index</h1>
-<p>Find me in app/views/memes/index.html.erb</p>
+<h1>Memes</h1>
+
+<ul>
+  <% @memes.each do |meme| %>
+    <li>
+      <%= meme.title %>
+      <%= meme.caption %>
+      <%= meme.owner_id %>
+      <%= meme.price_cents %>
+    </li>
+  <% end %>
+</ul>
